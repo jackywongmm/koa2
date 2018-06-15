@@ -17,7 +17,7 @@ app.use(async(ctx)=>{
         req_query,
         req_querystring,
         ctx_query,
-        ctx_querystring,
+        ctx_querystring
     }
 })
 app.listen(3000,()=>{
