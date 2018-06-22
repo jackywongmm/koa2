@@ -7,6 +7,9 @@ const router=new Router();
 router.get('/',(ctx,next)=>{
     ctx.body='hello';
 })
+.get('/todo',(ctx,next)=>{
+    ctx.body='Todo page'
+});
 
 app
 .use(router.routes())
